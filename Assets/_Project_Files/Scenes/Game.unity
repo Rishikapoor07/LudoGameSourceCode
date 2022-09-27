@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3708625, g: 0.37838694, b: 0.35726872, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1243,7 +1243,7 @@ GameObject:
   - component: {fileID: 119775265}
   - component: {fileID: 119775264}
   m_Layer: 5
-  m_Name: LastPawnValue2
+  m_Name: SecondMove
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1552,7 +1552,7 @@ GameObject:
   - component: {fileID: 126289901}
   - component: {fileID: 126289900}
   m_Layer: 5
-  m_Name: LastPawnValue3
+  m_Name: ThirdMove
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4898,7 +4898,7 @@ GameObject:
   - component: {fileID: 427818605}
   - component: {fileID: 427818604}
   m_Layer: 5
-  m_Name: LastPawnValue2
+  m_Name: SecondMove
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9026,7 +9026,7 @@ GameObject:
   - component: {fileID: 848623023}
   - component: {fileID: 848623022}
   m_Layer: 5
-  m_Name: LastPawnValue3
+  m_Name: ThirdMove
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11229,6 +11229,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 994978154}
+  - component: {fileID: 994978155}
   m_Layer: 5
   m_Name: Player3DataHolder
   m_TagString: Untagged
@@ -11264,6 +11265,22 @@ RectTransform:
   m_AnchoredPosition: {x: -169.12, y: -76}
   m_SizeDelta: {x: 141.044, y: 140.24}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &994978155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994978153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f391469205702945b7824958d166783, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FirstMove: {fileID: 1232482829}
+  SecondMove: {fileID: 427818602}
+  ThirdMove: {fileID: 848623020}
+  lastThreeMoves: []
 --- !u!1 &995736255
 GameObject:
   m_ObjectHideFlags: 0
@@ -12132,6 +12149,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045288383}
   m_CullTransparentMesh: 1
+--- !u!1 &1049417852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1049417854}
+  - component: {fileID: 1049417853}
+  m_Layer: 0
+  m_Name: HelperUtil
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1049417853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049417852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b1f73cf1ebefec40ba0a0fa25ddb755, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameLibrary: {fileID: 0}
+  vivoxManager: {fileID: 0}
+  messagePopupPrefab: {fileID: 0}
+  messagePopup: {fileID: 0}
+  messagePopupPrefabNoButton: {fileID: 0}
+  messagePopupNoButton: {fileID: 0}
+  loadingScreenPrefab: {fileID: 0}
+  loadingScreen: {fileID: 0}
+  internetPopUpPrefab: {fileID: 0}
+  internetPopUp: {fileID: 0}
+  rewardAdPopUpPrefab: {fileID: 0}
+  rewardedAdPopUp: {fileID: 0}
+  loaderPrefab: {fileID: 0}
+  loaderGO: {fileID: 0}
+--- !u!4 &1049417854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049417852}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6234555, y: 4.5927343, z: -0.42684287}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1051428489
 GameObject:
   m_ObjectHideFlags: 0
@@ -14633,7 +14708,7 @@ GameObject:
   - component: {fileID: 1232482832}
   - component: {fileID: 1232482831}
   m_Layer: 5
-  m_Name: LastPawnValue1
+  m_Name: FirstMove
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19327,6 +19402,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1687249704}
+  - component: {fileID: 1687249705}
   m_Layer: 5
   m_Name: Player2DataHolder
   m_TagString: Untagged
@@ -19362,6 +19438,22 @@ RectTransform:
   m_AnchoredPosition: {x: 169.06299, y: -75.99902}
   m_SizeDelta: {x: 140.31, y: 140.238}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1687249705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687249703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f391469205702945b7824958d166783, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FirstMove: {fileID: 2140196200}
+  SecondMove: {fileID: 119775262}
+  ThirdMove: {fileID: 126289898}
+  lastThreeMoves: []
 --- !u!1 &1692985787
 GameObject:
   m_ObjectHideFlags: 0
@@ -22441,7 +22533,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.056400534, y: 0.10067299}
   m_AnchorMax: {x: 0.9525995, y: 0.97200006}
-  m_AnchoredPosition: {x: -3.500061, y: 0.5}
+  m_AnchoredPosition: {x: -3.500122, y: 0.5}
   m_SizeDelta: {x: 1, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2033268516
@@ -23786,7 +23878,7 @@ GameObject:
   - component: {fileID: 2140196203}
   - component: {fileID: 2140196202}
   m_Layer: 5
-  m_Name: LastPawnValue1
+  m_Name: FirstMove
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24564,6 +24656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minDiceNumber: 1
   maxDiceNumber: 6
+  currentDiceNumber: 0
   rolling: 0
   enableUserInteraction: 0
 --- !u!1 &3521794444532789286
@@ -27042,6 +27135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minDiceNumber: 1
   maxDiceNumber: 6
+  currentDiceNumber: 0
   rolling: 0
   enableUserInteraction: 0
 --- !u!95 &4836142239504438857
@@ -28343,6 +28437,8 @@ MonoBehaviour:
   currentToken: 0
   lastDiceNum: 0
   diceSixCount: 0
+  BluePlayerData: {fileID: 1687249705}
+  RedPlayerData: {fileID: 994978155}
 --- !u!114 &5405309163313825451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28627,6 +28723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minDiceNumber: 1
   maxDiceNumber: 6
+  currentDiceNumber: 0
   rolling: 0
   enableUserInteraction: 0
 --- !u!114 &7644192302495578820

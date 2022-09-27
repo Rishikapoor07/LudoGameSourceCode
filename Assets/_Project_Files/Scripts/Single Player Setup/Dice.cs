@@ -10,6 +10,7 @@ public class Dice : MonoBehaviour
 
 	[SerializeField] private int minDiceNumber = 1;
 	[SerializeField] private int maxDiceNumber = 6;
+	[SerializeField] private int currentDiceNumber;
 
 	private Animator animator;
 	[SerializeField] private bool rolling;
@@ -53,6 +54,7 @@ public class Dice : MonoBehaviour
 			//rolling = false;
 			int num = Random.Range(minDiceNumber, maxDiceNumber + 1);
 			animator.SetInteger("DiceNum", num);
+			currentDiceNumber = num;
 
 			if (onDiceRolled != null)
 			{

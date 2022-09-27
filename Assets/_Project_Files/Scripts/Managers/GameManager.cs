@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
 	[SerializeField] Button[] IAP_Buttons;
 	public static Action OnIAPDone;
 
+	
     #endregion Variables
 
     #region Unity Callbacks

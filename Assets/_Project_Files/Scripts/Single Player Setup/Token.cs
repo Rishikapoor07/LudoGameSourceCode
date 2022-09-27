@@ -322,13 +322,6 @@ public class Token : MonoBehaviour
 		GameObject trace = Instantiate(tokenTrailPrefab, transform.position, Quaternion.identity);
 	}
 
-	void ReturnToHome()
-	{
-		SetState(TokenState.ReturningHome);
-		RemoveFromCurrentSquare();
-		waypoints.GoToPreviousWaypoint();
-		waypoints.DestWaypointIndex = 0;
-	}
 
 	void AsignToCurrentSquare()
 	{
