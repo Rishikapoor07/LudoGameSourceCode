@@ -1,0 +1,330 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: HomeScreen_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: f0a5cf7bd9bdd044c97261d6b2e60dda, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 37305229312
+    m_Localized: Welcome to the game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 980308519297024
+    m_Localized: Takiat Ludo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 980536534245376
+    m_Localized: Sign in using Facebook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 980656961101824
+    m_Localized: Sign in using Google
+    m_Metadata:
+      m_Items: []
+  - m_Id: 980781448044544
+    m_Localized: Sign in via Apple Account
+    m_Metadata:
+      m_Items: []
+  - m_Id: 980885970100224
+    m_Localized: OR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 980981264687104
+    m_Localized: Continue as a guest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 981115616632832
+    m_Localized: By proceeding you are agree upon <color="blue">our Service of conditions</color>
+      & <color="blue>>Privacy and policy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 982259009069056
+    m_Localized: Welcome to the game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 982359269711872
+    m_Localized: ' If you love to talk and have fun'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 983613962199040
+    m_Localized: Voice!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 983974164832256
+    m_Localized: If you want to focus on playing only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 984357486469120
+    m_Localized: Chat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 985555572629504
+    m_Localized: 'This mode is to play and talk with others
+
+      using Mic, do
+      you want to talk?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 985724720521216
+    m_Localized: I don't want to talk now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 991345683472384
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 991736793931776
+    m_Localized: Don't show me this again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 991736953315328
+    m_Localized: Searching for other players
+    m_Metadata:
+      m_Items: []
+  - m_Id: 992654935465984
+    m_Localized: "Winner will take all of the gold\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 993097715556352
+    m_Localized: Tracking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 993500435849216
+    m_Localized: 'Lost connection..
+
+      Auto AI activated and work on return you
+      back to the game'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 994316508995584
+    m_Localized: "Leave the game\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 995879562518528
+    m_Localized: Retry connection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 996065084973056
+    m_Localized: 'Voice mode made to talk with other while playing.
+
+      Your mic
+      muted for 30 seconds.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 996800526819328
+    m_Localized: 'Proceed '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 997037551132672
+    m_Localized: Are you sure you want to Report and block "XYZ" for violation reason?
+      You won't be able to hear each other.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 999048485019648
+    m_Localized: "Cancel\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 999305411305472
+    m_Localized: "Report & Block\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 999644462063616
+    m_Localized: "Left\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000748709060608
+    m_Localized: Game Ended
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001880793653248
+    m_Localized: The Winner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002615799291904
+    m_Localized: "The game will start in 30 seconds..\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002817264295936
+    m_Localized: "Play Again\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1003150585634816
+    m_Localized: "Search for another game\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1003551426879488
+    m_Localized: "Back to home\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1003806369259520
+    m_Localized: 'The lounge welcomes you to chat until you want
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1004560836468736
+    m_Localized: "Let's play again\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1004850440577024
+    m_Localized: "Loading game, please wait..\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1006639785189376
+    m_Localized: 'Auto AI activated until you come back.
+
+      Charge your diamonds
+      to Reroll the dice!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1006765278765056
+    m_Localized: Later
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1006972913590272
+    m_Localized: Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1007136994762752
+    m_Localized: "Watch an Ad and gain a free coins\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1007472903987200
+    m_Localized: "Watch the Ad\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1007812340621312
+    m_Localized: Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1008050606448640
+    m_Localized: Diamonds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1009027371769856
+    m_Localized: "Type someting\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1009185241178112
+    m_Localized: Send
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1009393144438784
+    m_Localized: 'Any harassment of other users or misuse of the game will lead to
+      a ban
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1009674359939072
+    m_Localized: "Personal profile\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1010209683152896
+    m_Localized: "Total games\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1010854091825152
+    m_Localized: "Wins\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011132929155072
+    m_Localized: "Win ratio\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011439176261632
+    m_Localized: "Sign in and link your achievements\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011755691024384
+    m_Localized: "Support\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1012402616279040
+    m_Localized: "Delete Account\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1012535961591808
+    m_Localized: "Sign out\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1012860600721408
+    m_Localized: Sorry, you should use a proper name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1013573426880512
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1013749080137728
+    m_Localized: 'Are you sure you want to delete you account? You will lose your
+      achievements by deleting your account.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1014211896418304
+    m_Localized: Delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1014755436273664
+    m_Localized: "You have been blocked\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1014879654780928
+    m_Localized: "Due to a violation of Takiat LUDO policies\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1015410716581888
+    m_Localized: "Ban ends after\r:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1016693733203968
+    m_Localized: Minutes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1016815867142144
+    m_Localized: Hours
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1017035141160960
+    m_Localized: Days
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1017222140010496
+    m_Localized: Check<color="blue"> Terms of service</color> to know reason of ban
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2556329727107072
+    m_Localized: "Are you sure you want to Report and block \"XYZ\" for violation
+      reason? You won't be able to hear each other.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3628221305200640
+    m_Localized: Go to <color="blue">settings</color> or press the button to allow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3636204152037376
+    m_Localized: Forbidden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3656308650680320
+    m_Localized: Loading...
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

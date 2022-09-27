@@ -1,0 +1,314 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: HomeScreen Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: HomeScreen
+  m_TableCollectionNameGuidString: f0a5cf7bd9bdd044c97261d6b2e60dda
+  m_Entries:
+  - m_Id: 37305229312
+    m_Key: Welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 980308519297024
+    m_Key: TakiatLudo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 980536534245376
+    m_Key: Sign in using Facebook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 980656961101824
+    m_Key: Sign in using Google
+    m_Metadata:
+      m_Items: []
+  - m_Id: 980781448044544
+    m_Key: Sign in via Apple Account
+    m_Metadata:
+      m_Items: []
+  - m_Id: 980885970100224
+    m_Key: OR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 980981264687104
+    m_Key: Continue as a guest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 981115616632832
+    m_Key: ' By proceeding'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 982259009069056
+    m_Key: Welcome to the game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 982359269711872
+    m_Key: ' If you love to talk and have fun'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 983613962199040
+    m_Key: Voice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 983974164832256
+    m_Key: If you want to focus on playing only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 984357486469120
+    m_Key: Chat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 985555572629504
+    m_Key: This mode is to play.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 985724720521216
+    m_Key: I don't want to talk now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 991345683472384
+    m_Key: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 991736793931776
+    m_Key: Don't show me this again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 991736953315328
+    m_Key: Searching for other players
+    m_Metadata:
+      m_Items: []
+  - m_Id: 992654935465984
+    m_Key: "Winner will take all of the gold\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 993097715556352
+    m_Key: Tracking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 993500435849216
+    m_Key: Lost connection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 994316508995584
+    m_Key: "Leave the game\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 995879562518528
+    m_Key: Retry connection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 996065084973056
+    m_Key: Voice mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 996800526819328
+    m_Key: 'Proceed '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 997037551132672
+    m_Key: 'Are you sure '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 999048485019648
+    m_Key: "Cancel\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 999305411305472
+    m_Key: 'Report & Block
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 999644462063616
+    m_Key: "Left\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1000748709060608
+    m_Key: Game Ended
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1001880793653248
+    m_Key: The Winner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002615799291904
+    m_Key: The game will start in 30 seconds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1002817264295936
+    m_Key: "Play Again\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1003150585634816
+    m_Key: "Search for another game\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1003551426879488
+    m_Key: "Back to home\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1003806369259520
+    m_Key: The lounge welcomes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1004560836468736
+    m_Key: "Let's play again\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1004850440577024
+    m_Key: Loading game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1006639785189376
+    m_Key: Auto AI activated
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1006765278765056
+    m_Key: Later
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1006972913590272
+    m_Key: Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1007136994762752
+    m_Key: "Watch an Ad and gain a free coins\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1007472903987200
+    m_Key: "Watch the Ad\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1007812340621312
+    m_Key: Coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1008050606448640
+    m_Key: Diamons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1009027371769856
+    m_Key: "Type someting\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1009185241178112
+    m_Key: Send
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1009393144438784
+    m_Key: Any harassment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1009674359939072
+    m_Key: "Personal profile\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1010209683152896
+    m_Key: "Total games\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1010854091825152
+    m_Key: "Wins\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011132929155072
+    m_Key: "Win ratio\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011439176261632
+    m_Key: "Sign in and link your achievements\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011755691024384
+    m_Key: "Support\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1012402616279040
+    m_Key: "Delete Account\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1012535961591808
+    m_Key: "Sign out\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1012860600721408
+    m_Key: Sorry, you should use a proper name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1013573426880512
+    m_Key: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1013749080137728
+    m_Key: Are you sure you want to delete you account
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1014211896418304
+    m_Key: Delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1014755436273664
+    m_Key: "You have been blocked\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1014879654780928
+    m_Key: "Due to a violation of Takiat LUDO policies\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1015410716581888
+    m_Key: "Ban ends after\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1016693733203968
+    m_Key: Minutes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1016815867142144
+    m_Key: Hours
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1017035141160960
+    m_Key: Days
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1017222140010496
+    m_Key: Check Terms of service
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2556329727107072
+    m_Key: Are you sure you want to Report
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3628221305200640
+    m_Key: Go to settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3636204152037376
+    m_Key: Forbidden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3656308650680320
+    m_Key: "\u062C\u0627\u0631 \u0627\u0644\u062A\u062D\u0645\u064A\u0644..."
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6869422281975136460
+  references:
+    version: 2
+    RefIds:
+    - rid: 6869422281975136460
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1657282462119

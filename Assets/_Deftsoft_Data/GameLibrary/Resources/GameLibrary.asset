@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a56be8505045f419e09655315448aa, type: 3}
+  m_Name: GameLibrary
+  m_EditorClassIdentifier: 
+  piecesMovementSpeed: 0.5
+  upperPawnStartPositions:
+  - horizontal: 0
+    vertical: 1
+  - horizontal: 1
+    vertical: 1
+  - horizontal: 2
+    vertical: 1
+  - horizontal: 3
+    vertical: 1
+  - horizontal: 4
+    vertical: 1
+  - horizontal: 5
+    vertical: 1
+  - horizontal: 6
+    vertical: 1
+  - horizontal: 7
+    vertical: 1
+  lowerPawnStartPositions:
+  - horizontal: 0
+    vertical: 6
+  - horizontal: 1
+    vertical: 6
+  - horizontal: 2
+    vertical: 6
+  - horizontal: 3
+    vertical: 6
+  - horizontal: 4
+    vertical: 6
+  - horizontal: 5
+    vertical: 6
+  - horizontal: 6
+    vertical: 6
+  - horizontal: 7
+    vertical: 6
+  upperKnightStartPositions:
+  - horizontal: 1
+    vertical: 0
+  - horizontal: 6
+    vertical: 0
+  lowerKnightStartPositions:
+  - horizontal: 1
+    vertical: 7
+  - horizontal: 6
+    vertical: 7
+  upperBishopStartPositions:
+  - horizontal: 2
+    vertical: 0
+  - horizontal: 5
+    vertical: 0
+  lowerBishopStartPositions:
+  - horizontal: 2
+    vertical: 7
+  - horizontal: 5
+    vertical: 7
+  upperRooksStartPositions:
+  - horizontal: 0
+    vertical: 0
+  - horizontal: 7
+    vertical: 0
+  lowerRooksStartPositions:
+  - horizontal: 0
+    vertical: 7
+  - horizontal: 7
+    vertical: 7
+  upperkingStartPositions:
+  - horizontal: 4
+    vertical: 0
+  lowerKingStartPositions:
+  - horizontal: 4
+    vertical: 7
+  upperQueenStartPositions:
+  - horizontal: 3
+    vertical: 0
+  lowerQueenStartPositions:
+  - horizontal: 3
+    vertical: 7
+  upperPawnStartAlgebraicNotation:
+  - horizontalAlphabets: a
+    verticalIntegers: 7
+  - horizontalAlphabets: b
+    verticalIntegers: 7
+  - horizontalAlphabets: c
+    verticalIntegers: 7
+  - horizontalAlphabets: d
+    verticalIntegers: 7
+  - horizontalAlphabets: e
+    verticalIntegers: 7
+  - horizontalAlphabets: f
+    verticalIntegers: 7
+  - horizontalAlphabets: g
+    verticalIntegers: 7
+  - horizontalAlphabets: h
+    verticalIntegers: 7
+  lowerPawnStartAlgebraicNotation:
+  - horizontalAlphabets: a
+    verticalIntegers: 2
+  - horizontalAlphabets: b
+    verticalIntegers: 2
+  - horizontalAlphabets: c
+    verticalIntegers: 2
+  - horizontalAlphabets: d
+    verticalIntegers: 2
+  - horizontalAlphabets: e
+    verticalIntegers: 2
+  - horizontalAlphabets: f
+    verticalIntegers: 2
+  - horizontalAlphabets: g
+    verticalIntegers: 2
+  - horizontalAlphabets: h
+    verticalIntegers: 2
+  upperKnightStartAlgebraicNotation:
+  - horizontalAlphabets: b
+    verticalIntegers: 8
+  - horizontalAlphabets: g
+    verticalIntegers: 8
+  lowerKnightStartAlgebraicNotation:
+  - horizontalAlphabets: b
+    verticalIntegers: 1
+  - horizontalAlphabets: g
+    verticalIntegers: 1
+  upperBishopStartAlgebraicNotation:
+  - horizontalAlphabets: c
+    verticalIntegers: 8
+  - horizontalAlphabets: f
+    verticalIntegers: 8
+  lowerBishopStartAlgebraicNotation:
+  - horizontalAlphabets: c
+    verticalIntegers: 1
+  - horizontalAlphabets: f
+    verticalIntegers: 1
+  upperRooksStartAlgebraicNotation:
+  - horizontalAlphabets: a
+    verticalIntegers: 8
+  - horizontalAlphabets: h
+    verticalIntegers: 8
+  lowerRooksStartAlgebraicNotation:
+  - horizontalAlphabets: a
+    verticalIntegers: 1
+  - horizontalAlphabets: h
+    verticalIntegers: 1
+  upperkingStartAlgebraicNotation:
+  - horizontalAlphabets: e
+    verticalIntegers: 8
+  lowerKingStartAlgebraicNotation:
+  - horizontalAlphabets: e
+    verticalIntegers: 1
+  upperQueenStartAlgebraicNotation:
+  - horizontalAlphabets: d
+    verticalIntegers: 8
+  lowerQueenStartAlgebraicNotation:
+  - horizontalAlphabets: d
+    verticalIntegers: 1
