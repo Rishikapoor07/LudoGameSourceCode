@@ -1,3 +1,4 @@
+#if(UNITY_IPHONE|| UNITY_IOS)
 using System.IO;
 using UnityEditor;
 using UnityEditor.Callbacks;
@@ -47,3 +48,4 @@ public class CustomPostProcessBuild
 #endif
 	}
 }
+#endif
