@@ -1572,7 +1572,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 53, y: -29.866}
+  m_AnchoredPosition: {x: 53, y: -29.865997}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &126289901
@@ -23894,7 +23894,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -37, y: -29.866}
+  m_AnchoredPosition: {x: -37, y: -29.865997}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2140196203
@@ -31255,6 +31255,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7644192303844412797}
+  - component: {fileID: 7644192303844412799}
   m_Layer: 0
   m_Name: Waypoints
   m_TagString: Untagged
@@ -31262,6 +31263,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7644192303844412799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7644192303844412798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274997f9e5beb4642b0dec28fa122288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scale:
+  - 1
+  - 0.9
+  - 0.8
+  - 0.7
+  - 0.65
+  - 0.6
+  - 0.55
+  - 0.5
+  positions:
+  - 0
+  - 0.1
+  - 0.07
+  - 0.06
+  - 0.06
+  - 0.05
+  - 0.05
+  - 0.04
 --- !u!1 &7644192303852547568
 GameObject:
   m_ObjectHideFlags: 0
