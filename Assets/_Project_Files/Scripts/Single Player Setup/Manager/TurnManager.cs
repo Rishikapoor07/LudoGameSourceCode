@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TurnManager : MonoBehaviour
 {
@@ -153,6 +154,7 @@ public class TurnManager : MonoBehaviour
             }
         }
 
+        SetLastThreeMoves(type, BluePlayerData, RedPlayerData, diceNum);
         lastDiceNum = diceNum;
         Token.TokenPlayer player = GetCurrentTokenPlayer();
         List<Token> movableTokens = tokenManager.GetMovableTokens(GetCurrentTokenType(), diceNum);
@@ -164,7 +166,7 @@ public class TurnManager : MonoBehaviour
             return;
         }
 
-        
+
 
         if (player == Token.TokenPlayer.Human)
         {
@@ -243,15 +245,33 @@ public class TurnManager : MonoBehaviour
 
     // Rishi Code
 
-    public void SetLastThreeMoves(Token.TokenType type,InGamePlayerData blueData = null, InGamePlayerData reddata = null)
+    public void SetLastThreeMoves(Token.TokenType type, InGamePlayerData blueData = null, InGamePlayerData reddata = null, int dicenum = 0)
     {
-        /*if (type == Token.TokenType.Blue)
-            BluePlayerData.lastThreeMoves.Add(GetCurrentTokenType());*/
+        if (type == Token.TokenType.Blue)
+        {
+            if (blueData.lastThreeMoves.Count >= 3)
+                blueData.lastThreeMoves.RemoveAt(0);
 
-        /*if (blueData.lastThreeMoves.Count > 2)
-            blueData.lastThreeMoves.RemoveAt(0);
-        if (reddata.lastThreeMoves.Count > 2)
-            reddata.lastThreeMoves.RemoveAt(0);*/
+            blueData.lastThreeMoves.Add(diceManager.GetCurrentDiceTexture(dicenum));
+            for (int i = 0; i < blueData.lastThreeMoves.Count; i++)
+            {
+                blueData.moves[i].texture = blueData.lastThreeMoves[i];
+                blueData.moves[i].gameObject.SetActive(true);
+            }
+        }
+
+        if (type == Token.TokenType.Red)
+        {
+            if (reddata.lastThreeMoves.Count >= 3)
+                reddata.lastThreeMoves.RemoveAt(0);
+
+            reddata.lastThreeMoves.Add(diceManager.GetCurrentDiceTexture(dicenum));
+            for (int i = 0; i < reddata.lastThreeMoves.Count; i++)
+            {
+                reddata.moves[i].texture = reddata.lastThreeMoves[i];
+                reddata.moves[i].gameObject.SetActive(true);
+            }
+        }
     }
 
     Token.TokenType GetCurrentTokenType()

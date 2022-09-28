@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InGamePlayerData : MonoBehaviour
 {
-    public GameObject FirstMove;
-    public GameObject SecondMove;
-    public GameObject ThirdMove;
-    public List<GameObject> lastThreeMoves = new List<GameObject>();
+    public RawImage FirstMove;
+    public RawImage SecondMove;
+    public RawImage ThirdMove;
+    public List<RawImage> moves = new List<RawImage>();
+    public List<Texture> lastThreeMoves = new List<Texture>();
 }
