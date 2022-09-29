@@ -52,7 +52,8 @@ public class Dice : MonoBehaviour
 			yield return new WaitForSeconds(1f);
 
 			//rolling = false;
-			int num = Random.Range(minDiceNumber, maxDiceNumber + 1);
+			//int num = Random.Range(minDiceNumber, maxDiceNumber + 1);  // To uncomment
+			int num = Random.Range(5, 7);    // To remove, just for testing 
 			animator.SetInteger("DiceNum", num);
 			currentDiceNumber = num;
 

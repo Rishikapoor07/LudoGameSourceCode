@@ -8,22 +8,30 @@ public class BoardHighlighter : MonoBehaviour
 	[SerializeField] private GameObject blueHighlight;
 	[SerializeField] private GameObject redHighlight;
 	[SerializeField] private GameObject yellowHighlight;
+	private HomeBaseManager homeBaseManager;
 
+	public void Init(HomeBaseManager homeBaseManager)
+	{
+		this.homeBaseManager = homeBaseManager;
+	}
 	public void Highlight(Token.TokenType section)
 	{
 		switch (section)
 		{
 			case Token.TokenType.Blue:
 				blueHighlight.SetActive(true);
+				//HighLightCurrentSelectedTokens(homeBaseManager.BlueHomeBase);
 				CurrentPlayerNumber = 1;
 				break;
 			case Token.TokenType.Red:
 				redHighlight.SetActive(true);
-				currentPlayerNumber = 2;
+                //HighLightCurrentSelectedTokens(homeBaseManager.RedHomeBase);
+                currentPlayerNumber = 2;
 				break;
 			case Token.TokenType.Yellow:
 				yellowHighlight.SetActive(true);
-				currentPlayerNumber = 3;
+                //HighLightCurrentSelectedTokens(homeBaseManager.YellowHomeBase);
+                currentPlayerNumber = 3;
 				break;
 		}
 		StartPlayerTurn();
@@ -37,6 +45,13 @@ public class BoardHighlighter : MonoBehaviour
 		StopTurn();
 	}
 
+	public void HighLightCurrentSelectedTokens(Transform[] currentSelectedToken)
+	{
+		foreach (var token in currentSelectedToken)
+		{
+			token.localScale = new Vector3(1.5f, 1.5f, 1.5f);
+		}
+	}
     #region Turn related
 
     private void Awake()

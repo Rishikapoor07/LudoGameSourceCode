@@ -6,5 +6,4 @@ public class PathManager : MonoBehaviour
 {
     public float[] scale;
     public float[] positions;
-    
 }
