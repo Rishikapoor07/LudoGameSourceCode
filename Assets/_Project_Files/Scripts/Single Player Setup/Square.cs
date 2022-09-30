@@ -6,6 +6,7 @@ public class Square : MonoBehaviour
     [SerializeField] private Token.TokenType activeDice = Token.TokenType.Blue;
     public PathManager pathManager;
     public bool isSafe = false;
+    public bool isVertical;
     public bool Safe
     {
         get { return isSafe; }
@@ -44,13 +45,17 @@ public class Square : MonoBehaviour
         int sortingLayer = 5;
         int extent = playersCount / 2;
         int counter = 0;
-        float offset = SetOffset(activeDice);
+
+
         if (isOdd)
         {
             for (int i = -extent; i <= extent; i++)
             {
                 Tokens[counter].transform.localScale = new Vector3(pathManager.scale[playersCount - 1], pathManager.scale[playersCount - 1], 1f);
-                Tokens[counter].transform.position = new Vector3(transform.position.x + (i * pathManager.positions[playersCount - 1]), transform.position.y - 0.2f, 1f);
+                if (isVertical)
+                    Tokens[counter].transform.position = new Vector3(transform.position.x + (i * pathManager.positions[playersCount - 1]), transform.position.y - 0.2f, 1f);
+                else
+                    Tokens[counter].transform.position = new Vector3(transform.position.x - 0.2f, transform.position.y + (i * pathManager.positions[playersCount - 1]), 1f);
                 counter++;
             }
         }
@@ -59,7 +64,10 @@ public class Square : MonoBehaviour
             for (int i = -extent; i < extent; i++)
             {
                 Tokens[counter].transform.localScale = new Vector3(pathManager.scale[playersCount - 1], pathManager.scale[playersCount - 1], 1f);
-                Tokens[counter].transform.position = new Vector3(transform.position.x + (i * pathManager.positions[playersCount]), transform.position.y - 0.2f, 1f);
+                if (isVertical)
+                    Tokens[counter].transform.position = new Vector3(transform.position.x + (i * pathManager.positions[playersCount - 1]), transform.position.y - 0.2f, 1f);
+                else
+                    Tokens[counter].transform.position = new Vector3(transform.position.x - 0.2f, transform.position.y + (i * pathManager.positions[playersCount - 1]), 1f);
                 counter++;
             }
         }
@@ -72,7 +80,7 @@ public class Square : MonoBehaviour
 
     }
 
-    public float SetOffset(Token.TokenType type)
+    /*public float SetOffset(Token.TokenType type)
     {
         float offset = 0f;
         switch (type)
@@ -88,5 +96,5 @@ public class Square : MonoBehaviour
                 break;
         }
         return offset;
-    }
+    }*/
 }
